@@ -723,7 +723,7 @@ Consume the body and return a promise that will resolve to a Buffer.
 
 <small>_(node-fetch extension)_</small>
 
-An operational error in the fetching process. See [ERROR-HANDLING.md][] for more info.
+An operational error in the fetching process. See [error handling document][error-handling.md] for more info.
 
 <a id="class-aborterror"></a>
 
@@ -731,7 +731,7 @@ An operational error in the fetching process. See [ERROR-HANDLING.md][] for more
 
 <small>_(node-fetch extension)_</small>
 
-An Error thrown when the request is aborted in response to an `AbortSignal`'s `abort` event. It has a `name` property of `AbortError`. See [ERROR-HANDLING.MD][] for more info.
+An Error thrown when the request is aborted in response to an `AbortSignal`'s `abort` event. It has a `name` property of `AbortError`. See [error handling document][error-handling.md] for more info.
 
 ## TypeScript
 
